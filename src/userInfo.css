@@ -1,0 +1,65 @@
+.user-info .address-card, .user-info .products-card {
+    background: #ffffff;
+    box-shadow: 2px 2px #c1bfbf;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding-right: 1.5rem;
+  }
+  
+  .user-info .address-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info .address-card .billing, .user-info .address-card .shipping {
+    max-width: 300px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  .user-info .title {
+    font-weight: 600;
+    padding: .5rem 0;
+  }
+  
+  .user-info .form-input {
+    padding: .25rem 0;
+  }
+  
+  .user-info .form-input input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: .5rem;
+  }
+  
+  .user-info table input {
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: .5rem;
+  }
+  
+  .btn-danger {
+    background: #d61010;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .btn-primary {
+    background: #7181fa;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .user-info .address-card {
+      flex-direction: row;
+    }
+  
+    .user-info .address-card .billing, .user-info .address-card .shipping {
+      margin: 0%;
+      padding: 1rem;
+    }
+  }
